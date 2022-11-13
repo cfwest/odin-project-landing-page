@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .heading {
@@ -71,6 +72,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    gap: 20px;
 }
 
 .flex-item-icons {
@@ -78,13 +80,41 @@ body {
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
+    width: 200px;
+    flex: 1;
 }
 
 .home-icon {
-    width: 30%;
+    padding: 10px 10px;
+    width: 100px;
+    height: auto;
+}
+
+.flex-item-icons p {
+    text-align: center;
 }
 
 .homepage-3 {
-    height: 800px;
+    height: 400px;
+    padding: 100px 300px 0px;
     background-color: #eeeeee;
+    display: flex;
+    flex-direction: column;
+}
+
+blockquote {
+    font-size: 36px;
+    font-family: 'Open Sans';
+    color: #1F2937;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.homepage-3 p {
+    font-size: 24px;
+    font-weight: 800px;
+    align-self: flex-end;
+    margin: 0px 75px;
+    font-family: 'Open Sans';
+    font-weight: 800;
 }
