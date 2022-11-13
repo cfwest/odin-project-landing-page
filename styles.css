@@ -1,10 +1,14 @@
+body {
+    margin: 0px;
+}
+
 .heading {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 24px 48px;
+    margin: 0px;
     padding: 24px 48px;
-    background-color: lightgreen;
+    background-color: #eeeeee;
 }
 
 .logo {
@@ -16,11 +20,71 @@
     display: flex;
     justify-content: content;
     align-items: center;
-    gap: 10px;
+    gap: 15px;
     font-size: 18px;
 }
 
 .menu-links a {
     text-decoration: none;
     color: black;
+}
+
+.hero-section {
+    background-color: #eeeeee;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hero-text {
+    font-size: 54px;
+    font-weight: 800;
+    margin: 0px
+}
+
+.left-hero {
+    width: 500px;
+    padding-right: 50px;
+    flex-shrink: 1;
+}
+
+.right-hero {
+    flex-shrink: 1;
+}
+
+.homepage-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 300px;
+    height: 400px;
+}
+
+.homepage-2 h2 {
+    font-size: 36px;
+    padding: 20px 0px;
+}
+
+.flex-container-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex-item-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.home-icon {
+    width: 30%;
+}
+
+.homepage-3 {
+    height: 800px;
+    background-color: #eeeeee;
 }
